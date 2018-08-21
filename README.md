@@ -1,0 +1,1 @@
+# phpstan-forbidden-method-calls-rule
