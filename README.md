@@ -20,4 +20,13 @@ services:
             - phpstan.rules.rule
 ```
 
+## Example
 
+```
+ ------ ----------------------------------------------------------------- 
+  Line   foo/Bar/Baz.php (in context of class Foo\Bar\Baz)  
+ ------ ----------------------------------------------------------------- 
+  95     Calling forbidden method                                                                                                                                        
+         Psr\Http\Message\StreamInterface:getContents().                                                                                                                 
+ ------ -----------------------------------------------------------------
+```
