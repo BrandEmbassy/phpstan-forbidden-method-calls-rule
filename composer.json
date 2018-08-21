@@ -1,0 +1,22 @@
+{
+    "name": "brandembassy/phpstan-forbidden-method-calls-rule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petr Morávek",
+            "homepage": "https://github.com/xificurk"
+        }
+    ],
+    "description": "Rule for PHPStan that enables you to forbid some methods from being called.",
+    "autoload": {
+        "psr-4": {
+            "BrandEmbassy\\ForbiddenMethodCallsRule\\": "src"
+        }
+    },
+    "require": {
+        "php": "~7.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": ">=0.10"
+    }
+}
