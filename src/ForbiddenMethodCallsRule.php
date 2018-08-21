@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace BrandEmbasssy\ForbiddenMethodCallsRule;
+namespace BrandEmbassy\ForbiddenMethodCallsRule;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr\MethodCall;
