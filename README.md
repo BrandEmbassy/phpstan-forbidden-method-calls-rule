@@ -13,7 +13,7 @@ And then in your `phpstan.neon` register service:
 ```
 services:
     -
-        class: BrandEmbasssy\ForbiddenMethodCallsRule\ForbiddenMethodCallsRule
+        class: BrandEmbassy\ForbiddenMethodCallsRule\ForbiddenMethodCallsRule
         setup:
             - addForbiddenMethod(Psr\Http\Message\StreamInterface, getContents)
         tags:
